@@ -1,1 +1,1 @@
-# SECURE - Sistema Estratégico de Cibersegurança Unificado, Resiliente e Eficiente
+# SECURE - Site Educativo de Cibersegurança Unificado, Resiliente e Eficiente

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Quiz educativo sobre golpes">
+    <title>Projeto Secure | Segurança com IA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-ia">
+    <header class="site-header">
+        <div class="brand">
+            <span class="brand-mark" aria-hidden="true">S</span>
+            <div>
+                <p class="eyebrow">Projeto de conscientização digital</p>
+                <a class="brand-name" href="index.html">Projeto Secure</a>
+            </div>
+        </div>
+
+        <nav class="main-nav" aria-label="Navegação principal">
+            <a href="index.html">Início</a>
+            <a href="phishing.html">Phishing e engenharia social</a>
+            <a href="software.html">Software e aplicativos</a>
+            <a href="dispositivos.html">Dispositivos</a>
+            <a class="active" href="ia.html">Segurança com IA</a>
+            <a href="senhas.html">Senhas e MFA</a>
+            <a href="dados.html">Proteção de dados</a>
+            <a href="wifi.html">Wi-Fi e conexões</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="section-tag">Quiz sobre uso da I.A.</p>
+                <h1>Segurança no uso da I.A. e perigos dela no dia a dia</h1>
+                <p class="hero-text">
+                    A inteligência artificial pode facilitar muitas tarefas diárias, mas ela também facilitou muitos golpes e a disseminação de fake news. Como nos deep fakes, golpistas criam vídeos falsos de pessoas inocentes em situações vexatórias, de políticos com propostas falsas ou usam vozes para dar golpes, geralmente em idosos, que são mais vulneráveis a essa tecnologia. Por isso, é importante proteger seus dados, verificar informações importantes antes de tomar uma decisão e desconfiar de pedidos estranhos.
+                </p>
+                <a class="button" href="#perguntas">Responder ao quiz</a>
+            </div>
+        </section>
+
+        <section class="quiz" id="perguntas" aria-label="Perguntas do quiz">
+            <article class="question">
+                <h2>1. Qual é um dos principais riscos ao usar ferramentas de Inteligência Artificial?</h2>
+                <form>
+                    <div class="option">
+                        <input type="radio" value="a" id="p1a" name="pergunta1">
+                        <label for="p1a">A) Aumentar automaticamente a segurança dos dados</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value="b" id="p1b" name="pergunta1">
+                        <label for="p1b">B) Receber informações que podem estar erradas ou inventadas</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value="c" id="p1c" name="pergunta1">
+                        <label for="p1c">C) Confirmar automaticamente a identidade de qualquer pessoa</label>
+                    </div>
+                </form>
+            </article>
+
+            <article class="question">
+                <h2>2. Por que não é seguro inserir senhas em ferramentas de Inteligência Artificial?</h2>
+                <form>
+                    <div class="option">
+                        <input type="radio" value="a" id="p2a" name="pergunta2">
+                        <label for="p2a">A) Porque senhas são informações confidenciais</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value="b" id="p2b" name="pergunta2">
+                        <label for="p2b">B) Porque toda IA funciona somente sem internet</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value="c" id="p2c" name="pergunta2">
+                        <label for="p2c">C) Porque a IA não consegue ler nenhum tipo de texto pessoal</label>
+                    </div>
+                </form>
+            </article>
+
+            <article class="question">
+                <h2>3. Como golpistas podem usar IA para tornar mensagens de phishing mais convincentes?</h2>
+                <form>
+                    <div class="option">
+                        <input type="radio" value="a" id="p3a" name="pergunta3">
+                        <label for="p3a">A) Removendo automaticamente todos os links das mensagens</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value="b" id="p3b" name="pergunta3">
+                        <label for="p3b">B) Impedindo que a vítima receba a mensagem</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value="c" id="p3c" name="pergunta3">
+                        <label for="p3c">C) Criando mensagens mais bem escritas e personalizadas para a vítima</label>
+                    </div>
+                </form>
+            </article>
+
+            <article class="question">
+                <h2>4. Uma pessoa recebe uma mensagem aparentemente enviada por seu banco. A mensagem usa seu nome, apresenta uma linguagem muito profissional e informa que sua conta será bloqueada em 10 minutos. Ela contém um link para “regularizar o acesso”. Qual conjunto de sinais mais indica uma possível tentativa de golpe?</h2>
+                <form>
+                    <div class="option">
+                        <input type="radio" value="a" id="p4a" name="pergunta4">
+                        <label for="p4a">A) Urgência, ameaça de bloqueio e link para uma ação imediata</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value="b" id="p4b" name="pergunta4">
+                        <label for="p4b">B) Uso do nome da pessoa e linguagem profissional</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value="c" id="p4c" name="pergunta4">
+                        <label for="p4c">C) A mensagem mencionar corretamente o nome do banco</label>
+                    </div>
+                </form>
+            </article>
+
+            <article class="question">
+                <h2>5. Um golpista utiliza IA para criar uma voz muito semelhante à de um familiar e pede uma transferência urgente. A vítima reconhece a voz e recebe uma mensagem com informações pessoais verdadeiras sobre a família. Qual é a conclusão mais segura?</h2>
+                <form>
+                    <div class="option">
+                        <input type="radio" value="a" id="p5a" name="pergunta5">
+                        <label for="p5a">A) A identidade está confirmada porque a voz e os dados pessoais coincidem</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value="b" id="p5b" name="pergunta5">
+                        <label for="p5b">B) A única forma de confirmar é pedir ao suposto familiar outra mensagem de voz</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" value="c" id="p5c" name="pergunta5">
+                        <label for="p5c">C) É necessário confirmar a situação por um canal independente antes de realizar qualquer transferência</label>
+                    </div>
+                </form>
+            </article>
+        </section>
+
+        <section class="answers">
+            <details>
+                <summary>Ver gabarito das perguntas</summary>
+                <div class="answer-list">
+                    <h3>Questão 1 – Alternativa B</h3>
+                    <p>A inteligência artificial pode apresentar informações incorretas ou inventadas.</p>
+                    <h3>Questão 2 – Alternativa A</h3>
+                    <p>Senhas são informações confidenciais e não devem ser compartilhadas.</p>
+                    <h3>Questão 3 – Alternativa C</h3>
+                    <p>Golpistas podem utilizar IA para criar mensagens mais bem escritas e personalizadas.</p>
+                    <h3>Questão 4 – Alternativa A</h3>
+                    <p>Urgência, ameaças e links suspeitos são sinais de possíveis golpes.</p>
+                    <h3>Questão 5 – Alternativa C</h3>
+                    <p>É necessário confirmar a situação por outro canal antes de realizar qualquer transferência.</p>
+                </div>
+            </details>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p><strong>Projeto Secure</strong> · Educação para uma vida digital mais segura.</p>
+        <p class="footer-note">Conteúdo educativo desenvolvido para atividade acadêmica.</p>
+    </footer>
+</body>
+</html>
